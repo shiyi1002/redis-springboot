@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class RedisSpringbootApplicationTests {
 	@Autowired
 	private RedisTemplate redisTemplate;
-
+//缓存
 	@Test
 	public void contextLoads() {
 		redisTemplate.setKeySerializer(new StringRedisSerializer());
